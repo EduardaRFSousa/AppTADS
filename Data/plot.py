@@ -3,7 +3,7 @@ import plotly.express as px # criação de mapas (tabelas) interativos
 
 def plot_price(ticker):
     """
-    A function to plot the close price given a ticker.
+    A function to plot the close price given a ticker
 
     """
     data = yf.download(
