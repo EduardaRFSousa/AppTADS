@@ -7,7 +7,7 @@ def plot_price(ticker):
             multi_level_index = False
     )
 
-    fig = px.line( 
+    fig = px.line(
             data.reset_index(),
             x = 'Date', y = ['Close']
     )
